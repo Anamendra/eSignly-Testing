@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.esignlyNew.testcases.LoginTest">
+        <methods>
+          <include name="tc_006_checkBox_click_to_Remember_Me"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="tc_007_uncheckBox_click_to_Remove_from_Remember"/>
+          <include name="afterTestSuite"/>
+        </methods>
+      </class> <!-- com.esignlyNew.testcases.LoginTest -->
+      <class name="com.esignlyNew.testcases.MyFolderTest">
+        <methods>
+          <include name="tc_myFoldr_012_verify_Edit_Folder_CloseBtn"/>
+          <include name="tc_myFoldr_008_verify_Create_A_Folder_CloseButton"/>
+          <include name="tc_myFoldr_006_verify_CreateFolder_CardTitle"/>
+          <include name="tc_myFoldr_007_verify_Create_A_Folder"/>
+          <include name="beforeMethod"/>
+          <include name="tc_myFoldr_010_verify_EditFolderName"/>
+          <include name="tc_myFoldr_009_verify_Create_A_Folder_UI"/>
+          <include name="tc_myFoldr_019_verify_FolderExistance"/>
+          <include name="afterMethod"/>
+          <include name="tc_myFoldr_020_verify_MyFolder_UI"/>
+          <include name="tc_myFoldr_011_verify_Edit_Folder_RenameBtn"/>
+          <include name="afterTestSuite"/>
+        </methods>
+      </class> <!-- com.esignlyNew.testcases.MyFolderTest -->
+      <class name="com.esignlyNew.testcases.SignUpTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="tc_signup_001_verify_signup_Via_Email"/>
+          <include name="afterMethod"/>
+          <include name="afterTestSuite"/>
+        </methods>
+      </class> <!-- com.esignlyNew.testcases.SignUpTest -->
+      <class name="com.esignlyNew.testcases.DashboardTest">
+        <methods>
+          <include name="tc_dash_025_Help"/>
+          <include name="tc_dash_028_Message_Box"/>
+          <include name="tc_dash_027_Notification_Box"/>
+          <include name="beforeMethod"/>
+          <include name="tc_dash_012_click_On_Reusable_Templates"/>
+          <include name="tc_dash_021_Api_Dashboard"/>
+          <include name="tc_dash_017_click_On_Awaiting"/>
+          <include name="tc_dash_013_click_On_My_Documents"/>
+          <include name="tc_dash_015_click_On_Received"/>
+          <include name="tc_dash_011_click_On_Inperson_Signing"/>
+          <include name="tc_dash_020_click_On_My_Team"/>
+          <include name="tc_dash_024_Api_Website_Widget"/>
+          <include name="afterTestSuite"/>
+          <include name="tc_dash_023_Api_Settings"/>
+          <include name="tc_dash_022_Api_Templates"/>
+          <include name="tc_dash_026_Upgrade_Now"/>
+          <include name="tc_003_check_DropdownMenu_My_Profile"/>
+          <include name="tc_dash_018_click_On_Scheduled"/>
+          <include name="tc_dash_014_click_On_Completed"/>
+          <include name="afterMethod"/>
+          <include name="tc_dash_016_click_On_Sent"/>
+          <include name="tc_dash_021_Api_Documents"/>
+        </methods>
+      </class> <!-- com.esignlyNew.testcases.DashboardTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
