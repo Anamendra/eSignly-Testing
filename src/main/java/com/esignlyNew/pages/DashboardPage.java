@@ -123,7 +123,7 @@ public class DashboardPage extends LoginPage {
 
 	public void isUsernamePresentAfterLogin() throws InterruptedException {
 		login.validUserCredentials();
-		verifyLogin.isDisplayed();
+		Assert.assertTrue(verifyLogin.isDisplayed());
 		needToImplicitWait(2);
 	}
 
@@ -196,7 +196,7 @@ public class DashboardPage extends LoginPage {
 	}
 
 	public void myFolder() throws InterruptedException {
-		
+
 		myFolder.click();
 		needToImplicitWait(3);
 
@@ -301,14 +301,14 @@ public class DashboardPage extends LoginPage {
 		clickOnMyprofileDropdown();
 		needToWait(3);
 		clickSettings.click();
-
+		needToWait(2);
 	}
 
 	public void clickTransaction() throws InterruptedException {
 		clickOnMyprofileDropdown();
 		needToWait(3);
 		clickTransaction.click();
-
+		needToWait(2);
 	}
 
 	public void clickAddSignature() throws InterruptedException {

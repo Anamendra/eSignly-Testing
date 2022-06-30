@@ -18,7 +18,7 @@ import com.esignlyNew.pages.BaseSetUp;
 
 
 
-public class Utility extends BaseSetUp {
+public class Utility extends com.esignlyNew.pages.BaseSetUp {
 
 	public static long PAGE_LOAD_TIMEOUT = 20;
 	public static long IMPLICIT_WAIT = 20;

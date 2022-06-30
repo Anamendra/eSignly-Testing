@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.esignlyNew.testcases.UserProfileTest">
+      <class name="com.esignlyNew.testcases.LoginTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="tc_mp_014_Address"/>
+          <include name="beforeSuite"/>
           <include name="afterMethod"/>
+          <include name="startTest"/>
+          <include name="tc_007_uncheckBox_click_to_Remove_from_Remember"/>
           <include name="afterTestSuite"/>
         </methods>
-      </class> <!-- com.esignlyNew.testcases.UserProfileTest -->
+      </class> <!-- com.esignlyNew.testcases.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
